@@ -1,0 +1,16 @@
+{
+	"tableName": "microkit_logs",
+	"automigrate": true,
+	"client": "mysql",
+	"debug": true,
+	"migrations": {
+		"tableName": "migrations",
+		"directory": "./lib/knex/migrations"
+	},
+	"connection": {
+		"host": "127.0.0.1",
+		"database": "microkit",
+		"user": "root",
+		"password": "Gonise!"
+	}
+}
